@@ -35,27 +35,46 @@ header{
 	padding: 0.5em;
 }
 
+header a{
+	background: #22BCE0;
+	border-radius: 5px 5px 0 0;
+	color: white;
+	left: 60%;
+	padding: 0 0.5em;
+	position: absolute;
+	text-decoration: none;
+	top: 80px;
+}
+
+header a:after{
+	content: "\e605";
+	font-family: "icomoon";
+	font-size: 0.8em;
+	margin-left: 15px;
+	opacity: 0.5;
+}
+
 header figure, header h1{
 	display: inline-block;
 	vertical-align: top;
 } 
 
 header h1{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: normal;
-	margin: 1em 0 0 1em;
+	margin: 0.5em 0 0 1em;
 	width: 60%;
 }
 
 header #avatar{
 	float: right;
-	margin: 1em 0.5em 0 0;
+	margin: 0.5em 0.5em 0 0;
 }
 
 header #avatar figcaption{
 	background: #22BCE0;
 	float: right;
-	height: 67px;
+	height: 60px;
 	line-height: 67px;
 }
 
@@ -68,6 +87,7 @@ header #avatar figcaption:after{
 
 header #avatar img{
 	float:left;
+	height: 60px;
 	width: 50px;
 }
 
@@ -221,7 +241,7 @@ nav #publicar_nav a{
 #contenido .item .titulo_item{
 	font-size: 1em;
 	font-style: italic;
-	padding: 0.5em 0,5em 0;
+	padding: 0.5em 0,5em;
 }
 
 #contenido .item .titulo_item a{
