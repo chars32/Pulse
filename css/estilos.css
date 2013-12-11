@@ -21,6 +21,13 @@ body{
 	margin: 0;
 }
 
+footer{
+	background: #434343;
+	color: #A7A7A7;
+	text-align: center;
+	width: 100%;
+}
+
 header{
 	background: #434343;
 	color: white;
@@ -48,8 +55,8 @@ header #avatar{
 header #avatar figcaption{
 	background: #22BCE0;
 	float: right;
-	height: 50px;
-	line-height: 50px;
+	height: 67px;
+	line-height: 67px;
 }
 
 header #avatar figcaption:after{
