@@ -42,7 +42,7 @@ header h1{
 
 header #avatar{
 	float: right;
-	margin: 1em 1em 0 0;
+	margin: 1em 0.5em 0 0;
 }
 
 header #avatar figcaption{
@@ -107,7 +107,7 @@ nav #publicar_nav{
 	background: #DD4F24;
 	float: right;
 	margin-right: 0;
-	padding-right: 0.9em;
+	padding-right: 1.25em;
 	position: relative;
 }
 
@@ -115,7 +115,7 @@ nav #publicar_nav:after{
 	color: rgba(255,255,255,0.5);
 	content: "\e607";
 	font-family: "icomoon";
-	font-size: 1.8em;
+	font-size: 1.6em;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -123,8 +123,12 @@ nav #publicar_nav:after{
 
 nav #publicar_nav a{
 	display: inline-block;
-	padding: 0.5em 1em;
+	padding: 0.5em 0.5em;
 	text-decoration: none;
+}
+
+#bienvenida{
+	display: none;
 }
 
 #contenido{
