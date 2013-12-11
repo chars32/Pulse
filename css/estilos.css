@@ -170,12 +170,21 @@ nav #publicar_nav a{
 }
 
 #contenido .item .datos_item .comentarios_item:after{
+	/*border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #878787;
+	content: "";
+	left: 10px;
+	position: absolute;
+	top: 100%;*/
+
 	content: "\e604";
 	color: #878787;
 	font-family: "icomoon";
-	margin-left: -1.3em;
-	margin-top: 1.4em;
+	font-size: 1.3em;
+	left: 7px;	
 	position: absolute;
+	top: 85%;
 }
 
 #contenido .item .datos_item .guardar_item{
