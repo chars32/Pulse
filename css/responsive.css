@@ -36,4 +36,8 @@
 	#contenido{
 		width: 70%;
 	}
+
+	iframe{
+		width: 100%;
+	}
 }
