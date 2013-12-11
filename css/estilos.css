@@ -98,7 +98,7 @@ nav #flechita_nav a{
 }
 
 nav #flechita_nav a:after{	
-	content: "\e605";
+	content: "\e600";
 	font-family: "icomoon";
 	opacity: 0.6;
 }
@@ -152,6 +152,7 @@ nav #publicar_nav a{
 	background: #878787;
 	border-radius: 4px;
 	color: white;
+	margin: 0 0 0 2em;
 	padding: 4px;
 	text-decoration: none;
 }
@@ -165,6 +166,8 @@ nav #publicar_nav a{
 	color: gray;
 	content: "\e606";
 	font-family: "icomoon";
+	font-size: 1.2em;
+	opacity: 0.5;
 }
 
 #contenido .item .datos_item .tag_item{
