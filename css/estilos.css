@@ -204,7 +204,7 @@ nav #publicar_nav a{
 	font-size: 1.3em;
 	left: 7px;	
 	position: absolute;
-	top: 85%;
+	top: 70%;
 }
 
 #contenido .item .datos_item .guardar_item{
@@ -236,7 +236,9 @@ nav #publicar_nav a{
 
 #contenido .item .imagen_item img{
 	width: 96px;
+	height: 129px;
 }
+
 
 #contenido .item .titulo_item{
 	font-size: 1em;
